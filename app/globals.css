@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 17, 17, 17;
+  --background-start-rgb: 245, 240, 230;
+  --background-end-rgb: 245, 240, 230;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
