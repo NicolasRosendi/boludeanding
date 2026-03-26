@@ -1,0 +1,34 @@
+{
+  "categorias": [
+    {
+      "nombre": "Entradas",
+      "items": [
+        {"id": 1, "nombre": "Brezel Tradicional", "descripcion": "Nudo de pan horneado con sal gruesa y mostaza antigua.", "precio": 1200},
+        {"id": 2, "nombre": "Tabla de Ahumados", "descripcion": "Selección de fiambres ahumados, quesos y pepinillos.", "precio": 4500},
+        {"id": 3, "nombre": "Kartoffelsalat", "descripcion": "Ensalada de papa alemana con vinagreta y tocino.", "precio": 2800}
+      ]
+    },
+    {
+      "nombre": "Platos Principales",
+      "items": [
+        {"id": 4, "nombre": "Goulash con Spätzle", "descripcion": "Estofado de carne vacuna con pimentón dulce y pasta casera.", "precio": 7800},
+        {"id": 5, "nombre": "Chucrut Completo", "descripcion": "Salchicha Frankfurt, ahumada, panceta y chucrut artesanal.", "precio": 8500},
+        {"id": 6, "nombre": "Schnitzel con Puré", "descripcion": "Milanesa de cerdo al estilo vienés con puré de papas suave.", "precio": 7200}
+      ]
+    },
+    {
+      "nombre": "Postres",
+      "items": [
+        {"id": 7, "nombre": "Apfelstrudel", "descripcion": "Strudel de manzana tibio con crema batida.", "precio": 3200},
+        {"id": 8, "nombre": "Selva Negra", "descripcion": "Torta clásica de chocolate, crema y cerezas.", "precio": 3500}
+      ]
+    },
+    {
+      "nombre": "Cervezas",
+      "items": [
+        {"id": 9, "nombre": "Pilsen 500cc", "descripcion": "Cerveza rubia artesanal, refrescante y ligera.", "precio": 2500},
+        {"id": 10, "nombre": "Bock 500cc", "descripcion": "Cerveza negra con notas a café y chocolate.", "precio": 2700}
+      ]
+    }
+  ]
+}
