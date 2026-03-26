@@ -1,33 +1,63 @@
 {
   "categorias": [
     {
-      "nombre": "Entradas",
+      "id": "entradas",
+      "nombre": "Entradas & Picadas",
       "items": [
-        {"id": 1, "nombre": "Brezel Tradicional", "descripcion": "Nudo de pan horneado con sal gruesa y mostaza antigua.", "precio": 1200},
-        {"id": 2, "nombre": "Tabla de Ahumados", "descripcion": "Selección de fiambres ahumados, quesos y pepinillos.", "precio": 4500},
-        {"id": 3, "nombre": "Kartoffelsalat", "descripcion": "Ensalada de papa alemana con vinagreta y tocino.", "precio": 2800}
+        {
+          "id": 1,
+          "nombre": "Brezel Tradicional",
+          "descripcion": "El clásico nudo de pan bávaro horneado, con sal gruesa y mostaza antigua.",
+          "precio": 1200,
+          "foto": "https://images.unsplash.com/photo-1571115162444-2321597a7da3?q=80&w=600&auto=format&fit=crop"
+        },
+        {
+          "id": 2,
+          "nombre": "Tabla de Fiambres Alemanes (para compartir)",
+          "descripcion": "Selección premium de salchichas ahumadas, jamón crudo tipo Selva Negra, leberwurst y quesos, acompañados de pepinillos y pan casero.",
+          "precio": 6500,
+          "foto": "https://images.unsplash.com/photo-1627318041926-0e10419830da?q=80&w=600&auto=format&fit=crop"
+        }
       ]
     },
     {
-      "nombre": "Platos Principales",
+      "id": "principales",
+      "nombre": "Platos Principales (¡Abundantes!)",
       "items": [
-        {"id": 4, "nombre": "Goulash con Spätzle", "descripcion": "Estofado de carne vacuna con pimentón dulce y pasta casera.", "precio": 7800},
-        {"id": 5, "nombre": "Chucrut Completo", "descripcion": "Salchicha Frankfurt, ahumada, panceta y chucrut artesanal.", "precio": 8500},
-        {"id": 6, "nombre": "Schnitzel con Puré", "descripcion": "Milanesa de cerdo al estilo vienés con puré de papas suave.", "precio": 7200}
+        {
+          "id": 3,
+          "nombre": "Schweinshaxe (Codillo de Cerdo)",
+          "descripcion": "Codillo de cerdo braseado lentamente hasta quedar tierno por dentro y crocante por fuera, servido con chucrut casero y puré de papas.",
+          "precio": 9800,
+          "foto": "https://images.unsplash.com/photo-1598511726623-149814eb38e1?q=80&w=600&auto=format&fit=crop"
+        },
+        {
+          "id": 4,
+          "nombre": "Schnitzel con Spätzle",
+          "descripcion": "Milanesa de cerdo estilo vienés, delgada y crujiente, acompañada de pasta casera alemana (Spätzle) salteada en manteca.",
+          "precio": 8200,
+          "foto": "https://images.unsplash.com/photo-1612803254922-9578676f4e6d?q=80&w=600&auto=format&fit=crop"
+        },
+        {
+          "id": 5,
+          "nombre": "Tabla de Salchichas Alemanas",
+          "descripcion": "Trío de salchichas (Bratwurst, Frankfurt y Weisswurst) servidas sobre una cama de chucrut caliente y ensalada de papa artesanal.",
+          "precio": 7500,
+          "foto": "https://images.unsplash.com/photo-1599940824399-b87987cb947a?q=80&w=600&auto=format&fit=crop"
+        }
       ]
     },
     {
-      "nombre": "Postres",
+      "id": "postres",
+      "nombre": "Postres Clásicos",
       "items": [
-        {"id": 7, "nombre": "Apfelstrudel", "descripcion": "Strudel de manzana tibio con crema batida.", "precio": 3200},
-        {"id": 8, "nombre": "Selva Negra", "descripcion": "Torta clásica de chocolate, crema y cerezas.", "precio": 3500}
-      ]
-    },
-    {
-      "nombre": "Cervezas",
-      "items": [
-        {"id": 9, "nombre": "Pilsen 500cc", "descripcion": "Cerveza rubia artesanal, refrescante y ligera.", "precio": 2500},
-        {"id": 10, "nombre": "Bock 500cc", "descripcion": "Cerveza negra con notas a café y chocolate.", "precio": 2700}
+        {
+          "id": 6,
+          "nombre": "Apfelstrudel Tibio",
+          "descripcion": "El tradicional strudel de manzana y pasas, servido tibio con una bocha de helado de crema americana.",
+          "precio": 3500,
+          "foto": "https://images.unsplash.com/photo-1606757640325-a13f706362e5?q=80&w=600&auto=format&fit=crop"
+        }
       ]
     }
   ]
