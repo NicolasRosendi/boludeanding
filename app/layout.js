@@ -30,15 +30,15 @@ export default function RootLayout({ children }) {
             <a href="/" className="font-serif text-3xl text-white">Bar Alemán</a>
             <div className="flex gap-6 items-center">
               <a href="/menu" className="hover:text-aleman-gold">Carta</a>
-              <a href="#nosotros" className="hover:text-aleman-gold">Nosotros</a>
-              <a href="#reservas" className="bg-aleman-red text-white px-5 py-2 rounded-sm hover:bg-aleman-gold transition font-bold text-sm uppercase">Reservar</a>
+              <a href="/#nosotros" className="hover:text-aleman-gold">Nosotros</a>
+              <a href="/#reservas" className="bg-aleman-red text-white px-5 py-2 rounded-sm hover:bg-aleman-gold transition font-bold text-sm uppercase">Reservar</a>
             </div>
           </div>
         </nav>
 
         {children}
 
-        {/* Footer */}
+        {/* Footer Corregido */}
         <footer className="bg-aleman-black text-aleman-cream py-16 px-6 mt-20 border-t border-aleman-gold/20">
           <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
             <div>
@@ -57,8 +57,11 @@ export default function RootLayout({ children }) {
               <a href="#" className="text-aleman-red hover:text-aleman-gold font-bold">WhatsApp Reservas</a>
             </div>
           </div>
-        </div>
-      </footer>
+          <div className="text-center mt-12 pt-8 border-t border-white/5 text-sm text-aleman-gray">
+            &copy; 2026 Bar Alemán. Todos los derechos reservados.
+          </div>
+        </footer>
+      </body>
     </html>
   )
 }
